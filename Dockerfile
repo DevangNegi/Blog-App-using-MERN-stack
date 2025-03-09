@@ -1,4 +1,4 @@
-FROM alpine:3.17.2
+FROM node:16.3.0-alpine
 WORKDIR app
 COPY . .
 EXPOSE 3000
